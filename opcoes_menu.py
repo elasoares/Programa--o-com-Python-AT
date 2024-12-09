@@ -31,7 +31,7 @@ def atender_cliente(produtos):
             print("Erro: produto não cadastrado.")
             continue
 
-        quantidade = entrar_numero_inteiro(f"Digite a quantidade de '{produto[1]}' que deseja comprar: ")
+        quantidade = entrar_numero_inteiro(f"Digite a quantidade do produto'{produto[1]}' que deseja comprar: ")
         if quantidade > produto[2]:
             print("Erro: Produto não disponível no estoque.")
             continue
