@@ -3,7 +3,6 @@ from menu import *
 from opcoes_menu import *
 
 
-
 def main():
     arquivo = obter_caminho_arq()
     produtos = ler_arquivo(arquivo)
@@ -25,7 +24,5 @@ def main():
                 print("Programa encerrado.")
                 break
             case _:
-                print("Erro: opção inválida. Tente novamente.")
-
-                
+                print("Erro: opção inválida. Tente novamente.")                
 main()
